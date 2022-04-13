@@ -50,7 +50,7 @@ func main() {
 			fmt.Println("Ойй. Твое число больше загаданного.")
 		} else {
 			fmt.Println("Good Job! Ты угадал мое число!")
-			break
+			return
 		}
 	}
 	//Вывод при проигрыше
